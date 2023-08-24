@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+:root{
+    --color1: #fff;
+    --color2: #000;
+
+    --font1: "Open Sans", sans-serif;
+
+    --px: 4rem;
+    --py: 0.5rem;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: var(--font1);
+}
+
+section{
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+button.normal{
+    padding: 0.5em;
+    background: var(--color1);
+}
