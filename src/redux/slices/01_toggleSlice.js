@@ -5,11 +5,16 @@ const toggleSlice = createSlice({
 
     initialState: {
         menu: false,
+        console: false,
     },
 
     reducers: {
         toggleMenu(state){
             state.menu = !state.menu;
+        },
+
+        toggleConsole(state){
+            state.console = !state.console
         }
     }
 })
