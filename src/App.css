@@ -2,13 +2,19 @@
 
 
 :root{
-    --color1: #fff;
-    --color2: #000;
+    --pri-color: #EDEDED;
+    --sec-color: #1c1c1c;
+    --accent1: #FB823A;
+    --accent2: #DCDCDC;
+    --accent3: #FFFFFF;
+    --accent4: #f7f7f7;
+    --accent5: #545454;
+    --accent6: #86af54;
 
     --font1: "Open Sans", sans-serif;
 
-    --px: 4rem;
-    --py: 0.5rem;
+    --px: 3rem;
+    --py: 1rem;
 }
 
 
@@ -25,9 +31,4 @@ body{
 section{
     max-width: 1280px;
     margin-inline: auto;
-}
-
-button.normal{
-    padding: 0.5em;
-    background: var(--color1);
 }
