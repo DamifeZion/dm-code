@@ -1,12 +1,12 @@
-
-import {Navbar, Toolbar, TextSpace, Console} from '../components/exportComponent'
+import {
+  Toolbar,
+  TextSpace, 
+  Console
+} from '../components/exportComponent'
 
 const Home = () => {
   return (
     <div>
-        <div className='sticky top-0 z-[100]'>
-         <Navbar />
-        </div>
         
         <div className='flex '>
 
