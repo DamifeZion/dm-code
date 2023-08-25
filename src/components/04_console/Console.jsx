@@ -45,7 +45,7 @@ const Console = () => {
             onClick={handleArrowChange}
             className="text-[--accent2] cursor-pointer hover:text-[--accent1] transition-text duration-200"
           >
-            {showConsoleMenu ? <KeyboardArrowDown /> : <KeyboardArrowUp />}
+            {!showConsoleMenu ? <KeyboardArrowDown /> : <KeyboardArrowUp />}
           </i>
         </div>
       </nav>

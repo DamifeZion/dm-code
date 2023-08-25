@@ -22,7 +22,7 @@ const Home = () => {
             </div>
 
             {/*WIDTH 35% DEFAULT ON HIDE 9%*/}
-            <div className={ showConsoleMenu ? `h-[9%] fixed bottom-0 w-1/2` : `h-[35%] bottom-1`}>
+            <div className={ showConsoleMenu ? `h-[9%] w-full` : `h-[35%]`}>
               <Console />
             </div>
           </div>
