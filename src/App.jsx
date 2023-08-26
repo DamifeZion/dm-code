@@ -1,4 +1,3 @@
-import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/exportComponent";
 import { Home, Docs } from "./pages/exportPages";
