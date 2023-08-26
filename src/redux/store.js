@@ -1,9 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { toggleSlice, } from "./slices/exportSlices";
+import { toggleSlice, stateValueSlice} from "./slices/exportSlices";
 
 const store = configureStore({
     reducer: {
         toggleSlice: toggleSlice.reducer,
+        stateValueSlice: stateValueSlice.reducer,
     }
 })
 
